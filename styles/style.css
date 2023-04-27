@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Patrick+Hand&family=Roboto+Condensed:ital@1&family=Roboto:wght@100&display=swap');
+header{
+    background-color: #2e64a1;
+}
+.logo-ctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 15vh;
+}
+.logo{
+    width: 100px;
+    margin: 20px;
+}
+.title{
+    color: #fff;
+}
+a{
+    color: #fff !important;
+    padding: 0px 20px !important;
+}
+.active{
+    background-color:#2e64a1;
+}
+main{
+    background-color: aliceblue;
+    min-height: 75vh;
+}
+.ctn-imgavion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-avion{
+    margin-top: 20px;
+    width: 50vw;
+    height: 40vh;
+}
+.ctn-textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctn-bienvenidos{
+    width: 40vw;
+}
+.texto{
+    width: 30vw;
+}
+.ctn-textimonios{
+    width: 10vw;
+    height: 25vh;
+}
+.ctn-testimonio{
+    background-color: gray;
+    height: 10vh;
+    width: 8vw;
+}
+footer{
+    min-height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#BDCDD6;
+    color: #Fff;
+}
