@@ -67,6 +67,8 @@ a{
     background-color: grey;
     width: 10vw;
 }
+
+/* NOSOTROS */
 .ctn-nosotros{
     display: flex;
     align-items: center;
@@ -78,16 +80,22 @@ a{
     width: 90vw;
     margin-top: 20px;
 }
-.ctn-card{
-    width: 90vw;
+.card-group{
+    margin-bottom: 20px;
 }
 .card{
     margin: 20px;
     border: 1px solid black !important;
-    min-height: 60vh;
 }
-.card-img{
-    border-radius: 50% !important;
+
+/* SERVICIOS */
+.ctn-services{
+    min-height: 75vh;
+}
+.cards-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     min-height: 6vh;
