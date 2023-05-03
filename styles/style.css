@@ -128,7 +128,23 @@ a{
 .ctn-news{
     min-height: 75vh;
 }
-
+/* CONTACTO */
+.ctn-contact{
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.mailto{
+    color:blue !important;
+}
+.contact-right{
+    width: 40vw;
+}
 footer{
     min-height: 6vh;
     display: flex;
