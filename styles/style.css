@@ -104,6 +104,26 @@ a{
     width: 80vw;
     min-height: 20vh !important;
 }
+
+/* GALLERY */
+.ctn-gallery{
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-img-gallery{
+    width: 17vw;
+    height: 25vh;
+    margin: 20px;
+    border: 1px solid black;
+}
+.img-gallery{
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+}
+
 footer{
     min-height: 6vh;
     display: flex;
