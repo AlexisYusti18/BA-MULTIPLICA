@@ -124,6 +124,11 @@ a{
     padding: 10px 10px;
 }
 
+/* NOVEDADES */
+.ctn-news{
+    min-height: 75vh;
+}
+
 footer{
     min-height: 6vh;
     display: flex;
