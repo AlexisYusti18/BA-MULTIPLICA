@@ -109,12 +109,15 @@ a{
 .ctn-gallery{
     min-height: 75vh;
     width: 100%;
+}
+.ctn-img{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .box-img-gallery{
-    width: 17vw;
-    height: 25vh;
+    max-width: 300px;
+    min-height: 25vh;
     margin: 20px;
     border: 1px solid black;
 }
