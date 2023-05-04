@@ -85,8 +85,18 @@ a{
     width: 90vw;
     margin-top: 20px;
 }
+.ctn-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .card-group{
+    width: 93vw;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .card{
     margin: 20px;
