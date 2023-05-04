@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Patrick+Hand&family=Roboto+Condensed:ital@1&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:ital,wght@0,300;1,300&family=Patrick+Hand&family=Roboto+Condensed:ital@1&family=Roboto:wght@100&display=swap');
+
+/* HEADER */
 header{
     background-color: #2e64a1;
 }
@@ -21,6 +23,8 @@ header{
 .title{
     color: #fff;
 }
+
+/* NAV */
 a{
     color: #fff !important;
     padding: 0px 20px !important;
@@ -28,44 +32,45 @@ a{
 .active{
     background-color:#2e64a1;
 }
+
+/* INDEX */
+.ctn-index{
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .box-img{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.img-avion{
+.img-plane{
     margin-top: 20px;
     width: 60vw;
-    height: 40vh;
+    height: 50vh;
 }
 .ctn-text{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-}
-.box-textos{
-    display: flex;
-    justify-content:center;
-    align-items: center;
     width: 60vw;
+}
+.text-welcome{
+    width: 35vw;
     min-height: 30vh;
-    flex-wrap: wrap;
 }
-.ctn-bienvenidos{
-    width: 30vw;
-    height: 30vh;
-}
-.ctn-textimonios{
-    width: 30vw;
+.text-testimony{
+    width: 25vw;
     height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.box-text-rigth{
-    background-color: grey;
-    width: 10vw;
+.box-text{
+    background-color: rgb(182, 177, 177);
+    min-width: 10vw;
+    min-height: 10vh;
 }
 
 /* NOSOTROS */
@@ -148,11 +153,22 @@ a{
 .contact-right{
     width: 40vw;
 }
+
+/* FOOTER */
 footer{
     min-height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#BDCDD6;
-    color: #Fff;
+    background-color:#d8d8d8;
+    color: #2e64a1;
+}
+
+/* MEDIAS */
+@media screen and (max-width:950px) {
+    .ctn-text{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
 }
