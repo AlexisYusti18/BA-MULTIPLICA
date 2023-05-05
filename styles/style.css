@@ -222,4 +222,7 @@ footer{
         justify-content: start;
         align-items: start;
     }
+    .box-contact{
+        flex-direction: column;
+    }
 }
