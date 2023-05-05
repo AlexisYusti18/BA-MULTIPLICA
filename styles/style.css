@@ -117,9 +117,14 @@ a{
     border: 1px solid black !important;
     border-radius: 10px;
     width: 80vw;
-    min-height: 20vh !important;
+    min-height: 15vh !important;
 }
-
+.img-services{
+    width: 25vw;
+    padding: 10px 10px;
+    min-height: 10vh;
+    border-radius: 20px;
+}
 /* GALLERY */
 .ctn-gallery{
     min-height: 75vh;
