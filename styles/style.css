@@ -150,6 +150,13 @@ a{
 /* NOVEDADES */
 .ctn-news{
     min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news{
+    width: 98vw;
 }
 /* CONTACTO */
 .ctn-contact{
