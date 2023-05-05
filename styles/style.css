@@ -164,16 +164,45 @@ a{
     display: flex;
     justify-content: center;
 }
+.box-contact{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-boxleft{
+    width: 45vw;
+    min-height: 70vh;
+    margin: 10px;
+}
 .contact{
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 45vw;
+}
+input{
+    background-color: #d8d8d8;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+textarea{
+    resize: none;
+}
+.btn-send{
+    background-color: #2e64a1;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 5vw;
+    margin-top: 5px;
 }
 .mailto{
     color:blue !important;
 }
-.contact-right{
-    width: 40vw;
+.contact-boxright{
+    width: 45vw;
+    min-height: 70vh;
+    margin: 10px;
 }
 
 /* FOOTER */
